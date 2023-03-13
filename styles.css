@@ -1,15 +1,17 @@
 .grid-container {
     display: grid;
-    background-color: #2196F3;
-    grid-template-columns: 250px auto 500px;
-    gap: 10px;
-    padding: 10px;
+    background-color: #111;/*#2196F3;this is skyblue*/
+    grid-template-columns: 250px auto 300px;
+    /*gap: 10px;*/
+    padding: 5px;
+    margin: -5px;
+    overflow-x: hidden;
 }
 
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
+    text-align: left;
+    padding: 5px;
     font-size: 30px;
   }
 
@@ -32,3 +34,18 @@
   .item5 {
     grid-area: 3/2/4/3;
   }
+
+  .navbar > a {
+    display: block;
+    text-decoration: none;
+    color: dimgray;
+    margin: 20px 5px;
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+
+  /*.main > iframe {
+    margin-bottom: 0;
+  }*/
